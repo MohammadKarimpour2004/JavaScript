@@ -56,6 +56,14 @@ h1elim.addEventListener('paste',()=>{
 h1elim.addEventListener('load',()=>{
     console.log('mohammad');
 })
+//موقع آنلاین بودن
+h1elim.addEventListener('online',()=>{
+    console.log('mohammad');
+})
+//موقع آفلاین بودن
+h1elim.addEventListener('offline',()=>{
+    console.log('mohammad');
+})
 //هنگام حرکت موس
 h1elim.addEventListener('mousemove',()=>{
     console.log('mohammad');

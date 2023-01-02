@@ -31,6 +31,10 @@ let btn = document.querySelector('#btn')
 
 <button onload='texts()'>text</button>
 
+<button ononline='texts()'>text</button>
+
+<button onoffline='texts()'>text</button>
+
 <button onmousemove='texts()'>text</button>
 
 <button onselect='texts()'>text</button>
