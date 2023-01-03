@@ -1,5 +1,5 @@
 // Switch Case
-
+// برای اجرای شرط های اغلبا اعداد
 let num = 2 + 2;
 
 switch (num) {

@@ -14,7 +14,7 @@ let plus = function(a,b){
 //استاندارد ES6
 
 const zarb = (a,b)=>{
-      console.log(a*b);
+    console.log(a*b);
 }
 //نحوه استفاده
 
