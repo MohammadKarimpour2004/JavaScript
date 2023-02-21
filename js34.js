@@ -108,3 +108,15 @@ h1elim.addEventListener('click',(event)=>{
 h1elim.removeEventListener('click',()=>{
     console.log('removed');
 })
+
+//////////////////////////////////////////////////
+
+//ایجاد کانفیگبرای رویداد
+
+h1elim.addEventListener('click',()=>{/*دستورات*/},{/* کانفیگ ها*/})
+
+h1elim.addEventListener('click',()=>{console.log(12)},{ once=true})
+
+// کانفیگ ها 
+
+once // فقط یک بار رویداد اجرا میشود
