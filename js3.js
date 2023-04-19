@@ -2,7 +2,7 @@
 
 // prompt(title, [default]);
 
-var Name = prompt("what is yuor name?");
+var Name = prompt("what is yuor name?",'mohammad');
  
 // Name => user name
 

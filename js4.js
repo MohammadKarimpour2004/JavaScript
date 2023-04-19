@@ -10,7 +10,7 @@ console.log(num1 * num2);
 
 console.log(num1 / num2);
 
-console.log(num1 ** num2); //tavan
+console.log(num1 ** num2); //توان
 
-console.log(num1 % num2); //baqimondeh
+console.log(num1 % num2); //باقیمانده از تقسیم
 
