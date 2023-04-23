@@ -22,7 +22,10 @@ const zarb = (a,b)=>{
 let one = ()=> console.log(1)
 //اگر تعداد ورودی های فانگشن فقط یک عدد باشد پرانتز لازم نیست
 let no = one_1 => alert(one_1);
-num_2.forEach( n => console.log(n *10))
+//num_2.forEach( n => console.log(n *10))
+//برای دسترسی به بی نهایت ورودی
+let full = (...args)=> console.log(args)
+full(1,2,3,4,5,6,7,8,9,10)// 1,2,3,4,5,6,7,8,9
 //--------------------------------
 
 //نحوه استفاده
@@ -39,6 +42,7 @@ function vorodi(a=40,b=14) {
 vorodi()//=>54
 vorodi(10,12)//=>22
 
+//
 //return => برای برگرداندن جواب 
 function too(){
     return 45
