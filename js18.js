@@ -19,3 +19,7 @@ console.log(objects.name);// mohammad
 // برای حذف کردن یک ایتم از ابجکت
 
 delete objects.family
+
+// آبجکت ها یک دیتا غیر قابل پیمایش هستند و برای قابل پیمایش شدنش باید
+let onPaymayesh = Object.entries(objects)
+console.log(onPaymayesh) // [ [ 'name', 'mohammad' ], [ 'age', 18 ], [ 'live', true ] ]
