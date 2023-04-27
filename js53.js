@@ -44,3 +44,14 @@ MAP.get('number')
 let NewMap = new MAP(Object.entries({'name': 'mohammad'}))
 // تبدیل مپ به آبجکت
 let NewObj = Object.fromEntries(MAP)
+
+
+// پیشرفته : weekset,weekmap
+// با این تفاوت که برای مقدار دهی حتما باید از آبجکت استفاده کرد و نمیتوان روی آن جستجو انجام داد
+// برای پرفرمنس سیستم بهتره چون با حذف کردن این داده کلا پاک میشود و در استورج ردی باقی نمی زارد
+let NewWeekSet = new WeakSet()
+let NewWeekMap = new WeakMap()
+
+// مقدار دهی
+NewWeekSet.add({'1':'mohammad'})
+NewWeekMap.set({'1':'name'},'mohammad')
